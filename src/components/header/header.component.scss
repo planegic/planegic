@@ -1,0 +1,32 @@
+nav{
+    position: fixed;
+    top:20px;
+    z-index: 100;
+    width:100%;
+    transition: all .5s;
+    &.sticky{
+        top:0px; 
+        background:#48cae4;
+    }
+    .navbar-brand{
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: 900;
+        color: #023e8a;
+        font-size: 25px;
+    }
+    #navbarNav{
+        .nav-link{
+            font-family: 'Rajdhani', sans-serif;
+            font-weight: 500;
+            color: #023e8a;
+            cursor: pointer;
+            margin: 0 5px;
+        }
+        background:#48cae4;
+        border-radius:5px;
+        padding:0 25px;
+        &.navbar-collapse{
+            flex-grow:unset;
+        }
+    }
+}
